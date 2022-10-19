@@ -14,8 +14,11 @@ namespace zefir::threading::test
 		void SetUp() override;
 		void TearDown() override;
 
-	
-		zefir::threading::Matrix<long double> *m1;
+		void FillWithMultiplicationTable(zefir::threading::Matrix<long double>* mat);
+
+		zefir::threading::Matrix<long double>* m1;
+		zefir::threading::Matrix<long double>* m2;
+		zefir::threading::Matrix<long double>* m3;
 	};
 
 }

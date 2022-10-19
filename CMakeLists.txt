@@ -8,3 +8,5 @@ project ("SelfEdu")
 # Include sub-projects.
 add_subdirectory ("Threading")
 add_subdirectory ("ThreadingTest")
+
+add_subdirectory ("Playground")
